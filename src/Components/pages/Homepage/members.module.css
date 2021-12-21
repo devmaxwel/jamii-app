@@ -46,19 +46,20 @@ color: #fff;
     }
 
     .data i{
-      padding-left: 80px;
+      /* padding-left: 80px; */
       align-items: center;
       position: relative;
 
     }
     .data h3{
       align-items: center;
-      padding-left: 50px;
+      /* padding-left: 50px; */
       position: relative;
+      width: 100%;
     }
 
     .members .data h1{
-        padding-left:70px;
+        /* padding-left:70px; */
       position: relative;
   } 
   
