@@ -1,28 +1,29 @@
 import React from 'react'
-import './hero.css' ;
-import { Button} from '@material-ui/core';
 import UICARD from '../../Interface/UICARD';
-import UI from '../../Interface/UI';
+import UI from '../../Interface/UI'
+import  './hero.css'
+import { Button } from '@material-ui/core';
 
-
-
-function Hero(props) {
+const Hero = () => {
     return (
-        < >
-         
-             <div className="cover">
-                
-                  <div className="desc">
-                        <h2>Welcome to JAMII COMPASSIONATE</h2>
-
-                        <h4>We Value your Welfare</h4>
-
-                        <div className="action">
-                        <Button> <i class="fas fa-arrow-right"></i> Join Jamii</Button>
-                 </div>
-            </div>
+        <div>
           
-                 </div>
+          <div className="cover">
+                
+                <div className="desc">
+                      <h2>Welcome to JAMII COMPASSIONATE</h2>
+
+                      <h4>We Value your Welfare</h4>
+
+                      <div className="action">
+                      <Button> <i class="fas fa-arrow-right"></i> Join Jamii</Button>
+                   </div>
+          </div>
+
+          </div>
+        
+
+              {/* The About */}
 
               <div className="columns">
                      <UI>
@@ -73,11 +74,7 @@ function Hero(props) {
 
                         </div>   
 
-                        {props.children}
-           
-     
-
-        </>
+        </div>
     )
 }
 
