@@ -1,0 +1,174 @@
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background: #1F2229;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    opacity: 0.9;
+  }
+  
+  footer .container{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      flex-direction: row;
+  }
+  
+  footer .container .sec{
+      margin-right: 20px;
+  }
+  
+  footer .container  .sec.aboutus{
+      width: 40%;
+  }
+  
+  footer .container  h2{
+      position: relative;
+      color: #fff;
+      font-weight: 500;
+      margin-bottom: 15px;
+  }
+  
+  footer .container h2:before{
+      content: '';
+      position: absolute;
+      bottom: -7px;
+      left: 0;
+      width: 19%;
+      height: 2px;
+      background:#d6519d;
+  }
+  
+  footer .container  .sec.aboutus p{
+      color: #fff;
+  }
+  
+  .sci{
+      margin-top: 20px;
+      display: flex;
+      margin-right: -20px;
+  }
+  .sci li{
+      list-style: none;
+  }
+  
+  .sci li{
+      justify-content: space-around;
+      margin: 5px 10px;
+      border-radius: 4px;
+      padding: 5px 13px;
+      background: #008ec8;  
+  }
+  
+  .sci i{
+      font-size: 1.0rem;
+      color:#fff;
+  }
+  
+  .sci li i:hover{
+      color: #d6519d;
+  }
+  
+  .quicklinks{
+      position: relative;
+      width: 25%;
+  }
+  .quicklinks ul{
+      list-style: none;
+  }
+  
+  .quicklinks li a{
+      text-decoration: none;
+      color: #fff;
+      margin-bottom: 10px;
+      display: inline-block;
+      
+  }
+  
+  .contact{
+      width: calc(35% - 60px);
+      margin-right: 0 !important;
+      
+  
+  
+  }
+  
+  .contact .info{
+      position: relative;
+  }
+  
+  .contact .info li{
+      display: flex;
+      margin-bottom: 16px;
+      color: #aa4598;
+      
+  }
+  
+  .contact .info li span{
+      margin-right: 10px;
+  }
+  
+  .contact .info li i{
+      font-size: 1.5rem;
+  }
+  
+  .contact .info li a{
+      text-decoration: none;
+      color: #fff;
+  }
+  
+  .contact .info li span:nth-child(1){
+      color: #aa4598;
+      font-size:20px;
+      margin-right: 10px;
+  }
+  
+  .contact .info li span{
+      color: #fff;
+  }
+  
+  .copyrightText{
+      width: 100%;
+      background: #1F2229;
+      color: #fff;
+      padding: 8px 50px;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+  }
+  
+  .copyrightText p > a{
+      text-decoration: none;
+      color: #000;
+      font-weight: 500;
+      font-style: italic;
+  
+  }
+  
+  @media(max-width: 991px){
+      footer{
+          padding: 40px;
+      }
+  
+      footer .container{
+          flex-direction: column;
+      }
+  
+      footer .container .sec{
+          margin-right: 0;
+          margin-bottom: 40px;
+      }
+  
+      footer .container .sec.sec.aboutus,.quicklinks,.contact{
+          width: 100%;
+      }
+  
+      .copyrightText{
+          padding: 8px 20px;
+          
+      }
+      
+  }

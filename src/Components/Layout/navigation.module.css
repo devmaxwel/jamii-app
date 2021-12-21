@@ -1,0 +1,138 @@
+header{
+    width: 100%;
+    z-index: 999;
+    margin: 0;
+    padding-left: 0;
+    opacity: 0.7;
+
+}
+
+.fnav{
+    display: flex;
+    justify-content: space-between;
+    background:#008ec8;
+    height: 50px;
+    width:100%;
+    padding: 5px 10px;
+}
+
+
+.contact i{
+    
+    color: #fff;
+    justify-content: space-between;
+    padding: 0 20px;
+    padding-bottom: 15px;
+
+   
+}
+.contact i span{
+    padding: 0 10px;
+}
+
+header .socials{
+    display: flex;
+    padding: 0 55px;
+    
+}
+
+.socials i{
+  
+    color: #fff;
+   
+}
+
+.socials a{
+    padding: 0 10px;
+}
+
+.socials a i{
+    padding: 10px 10px;
+    background: #aa4598;
+    border-radius: 50%;
+}
+
+nav{
+    display: flex;
+    height: 110px;
+    background: #231f20;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+nav .logo{
+    padding: 5px 0;
+}
+
+nav .logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 20px;
+    
+
+}
+.nav h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    display: none;
+}
+
+.nav ul{
+    display: flex;
+   
+}
+
+.nav ul li{
+    padding: 0px 10px;
+    padding-top: 40px;
+    position: relative;
+    list-style: none;
+}
+
+.nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+/* Responsive */
+
+@media(max-width: 991px){
+    .fnav{
+        display: none;
+    }
+
+    .nav{
+        background: #008ec8;
+        height: 50px;
+        opacity: 0.7;
+    }
+
+    .nav ul{
+        display: none;
+    }
+
+    .nav .logo{
+       display: none;
+    }
+    .nav h1{
+        display: block;
+        margin: 0 20px;
+        padding: 20px 0;
+        font-style: italic;
+        font-weight: 700;
+        font-size: 20px;
+
+    }
+}
+
+@media(max-width: 480px){
+    header{
+        width: 100%;
+    }
+}

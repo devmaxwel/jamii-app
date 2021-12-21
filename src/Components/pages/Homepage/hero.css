@@ -1,0 +1,155 @@
+.cover{
+   
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+     background:linear-gradient(rgba(0, 0, 0, 0.7)
+     ,rgba(0, 0, 0, 0.7)) 
+     , url(../../../Img//Hero.jpg)no-repeat;
+ 
+     
+ }
+ 
+ .desc{
+     width: 100%;
+     height: 50px;
+   
+     /* Center vertically and horizontally */
+     position: relative;
+     padding:30px;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -90%);
+     flex-wrap: nowrap;
+     color: #fff;
+    
+   }
+ 
+   .desc h2{
+       font-size: 3.5rem;
+       font-weight: 800;
+       font-weight: bold;
+       font-style: oblique;
+ 
+ 
+   }
+ 
+   .desc h4{
+      font-style: italic;
+       font-size: 1.5rem;
+       font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       font-weight: 900;
+   }
+ 
+   .action button{
+     padding: 0 20px;
+     font-size: 20px;
+     border-radius: 4px;
+     font-size: 25px;
+     cursor: pointer;
+     background: #d6519d;
+     color: #fff;
+     
+ 
+ }
+ 
+ .action button i{
+     border-radius: 50%;
+     background: #231;
+     padding: 5px 5px;
+     font-size: 10px;
+ }
+ 
+ .action button:hover{
+     color: #fff;
+ }
+ 
+ 
+ .columns{
+   
+     display: grid;
+     grid-template-columns:1fr 1fr 1fr;
+     grid-gap:5px;
+     margin: 20px;
+     position: relative;
+ }
+ 
+ 
+ 
+ .card-1 h1{
+ 
+     font-size: 3rem;
+     font-weight: 800;
+     font-weight: bold;
+     font-style: oblique;
+     color: #fff;
+ 
+ }
+ 
+ .card-1 p{
+     font-size: 22px;
+     color: #fff;
+ 
+ }
+ 
+ .card-2{
+     position: relative;
+ 
+ }
+ 
+ .card-2 i{
+     font-size: 60px;
+     align-items: center;
+     top:20px;
+     justify-content: center;
+     position: relative;
+     color: #aa4598;
+     left: 70px;
+     transform: translate(10%,40%);
+ 
+ 
+ }
+ 
+ .card-2 .desc{
+     color: #000;
+     top: 90px;
+     padding-top: 30px;
+ }
+ 
+ .card-2 .desc h2{
+     font-size: 35px;
+ }
+ 
+ .card-2 .desc p{
+     font-size: 20px;
+     position: relative;
+ 
+ }
+ 
+ 
+ 
+ /* Responsivness */
+ 
+ @media(max-width: 995px){
+ 
+     .cover{
+         width: 100%;
+         height: 100vh;
+         background-size: cover;
+     }
+ 
+     
+ 
+     .columns{
+         display: block;
+        
+     }
+ 
+     .card-2 i{
+         padding-left: 50px;
+         position: relative;
+ 
+ 
+     }
+ 
+ }
