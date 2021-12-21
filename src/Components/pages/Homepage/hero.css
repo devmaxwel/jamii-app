@@ -139,6 +139,13 @@
         background-size: cover;
     }
 
+    .desc h2{
+        font-size: 1rem;
+    }
+    .card-1 h1{
+        font-size: 1rem;
+    }
+
     
 
     .columns{
