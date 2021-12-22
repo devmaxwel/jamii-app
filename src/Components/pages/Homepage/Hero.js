@@ -13,7 +13,7 @@ const Hero = () => {
                 <div className="desc">
                       <h2>Welcome to JAMII COMPASSIONATE</h2>
 
-                      <h4>We Value your Welfare</h4>
+                      <h4>Putting You First</h4>
 
                       <div className="action">
                       <Button> <i class="fas fa-arrow-right"></i> Join Jamii</Button>
