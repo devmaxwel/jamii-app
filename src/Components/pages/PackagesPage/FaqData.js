@@ -26,6 +26,6 @@ export const FaqData = [
     },
     {
         question:'How do I pay my contributions?',
-        answer:'Payments are made either via Mpesa Till Number XXX, or buy dialing xxxxxxx from a Safaricom line already registered with Jamii. No cash remittance is acceptable to any jamii agents.'
+        answer:'Payments are made either via Mpesa Till Number XXX, or buy dialing xxxxxxx from a Safaricom line already registered with Jamii. No cash remittance is acceptable to any jamii agents.',
     }
-]
+];

@@ -1,7 +1,6 @@
 import { Route, Switch } from 'react-router-dom';
 import './App.css';
 import Layout from './Components/Layout/Layout';
-import FAQ from './Components/pages/PackagesPage/FAQ';
 import Home from './Components/Web/home/Home';
 import PackagesPage from './Components/Web/Packages/PackagesPage';
 import ServicePage from './Components/Web/Services/ServicePage';
