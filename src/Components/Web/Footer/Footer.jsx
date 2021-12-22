@@ -8,8 +8,12 @@ function Footer() {
         <footer>
             <div className="container">
                 <div className="sec aboutus">
-                <h2>About Us</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem temporibus cumque vitae quisquam quam sequi suscipit asperiores architecto hic quidem ea dicta, fugit laboriosam mollitia adipisci in minus voluptate. Facilis, minus sed? Esse distinctio omnis exercitationem dolor, accusantium odio similique?</p>
+                <h2>OBJECTIVES</h2>
+                <p>
+To empower our members financially.</p>
+ <p>To promote a sense of belonging for our members to live as a family.</p>
+<p>To assist members and their beneficiaries with funeral expenses. 
+</p>
 
                 <ul className="sci">
                        <Link> <li><i class="fab fa-facebook-square" aria-hidden='true'></i></li></Link>
@@ -61,7 +65,7 @@ function Footer() {
 
         <div class="copyrightText">
             <p>Copyright  ©2021 Jamii Comapssionate Ltd. All Rights Reserved</p>
-            <p><Link>[Developed By DevMaxwel]</Link></p>
+            <p><Link  to={{ pathname: "https://devmaxwel.github.io/portfolio/" }} target="_blank">[Developed By DevMaxwel]</Link></p>
         </div>
 
         </div>

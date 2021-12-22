@@ -29,8 +29,8 @@ const Hero = () => {
                      <UI>
                                 <div className="card-1">
                                   
-                                        <h1>About JAMII COMPASSIONATE</h1>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> <br />
+                                        <h1>WHO WE ARE</h1>
+                                        <p>JAMII COMPASSIONATE holds several values close to our hearts, for prospects and partners. We take responsibility; have passion for ensuring reliable Funeral Services to our members. We are continually diligent to ensure the best solution with the expertise of our valued staff, which are knowledgeable, compassionate and loyal. We believe in family values, maintaining health and promoting positivity as well as helping the financially challenged individuals.</p> <br />
 
                                      </div>
                                           <div className="action">
@@ -48,8 +48,8 @@ const Hero = () => {
                                    <i class="far fa-lightbulb"></i>
 
                                     <div className="desc">
-                                            <h2>Mission</h2>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h2>Vision</h2>
+                                        <p>To help Kenyans living in urban and semi-rural set-up to get empowered by providing a decent send-off, in the event of unforeseen eventualities.</p>
                                     </div>
                                  </div>
 
@@ -64,15 +64,17 @@ const Hero = () => {
                               <i class="fas fa-gem"></i>
                                      
                                     <div className="desc">
-                                    <h2>Vision</h2>
-                                     <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                    <h2>Mission</h2>
+                                     <p>Our mission is to be the number one, last respect service provider in Kenya and East Africa at large.</p>
 
                                     </div>
                                      </div>
 
-                        </UICARD>
+                                 </UICARD>
 
                         </div>   
+
+                        
 
         </div>
     )

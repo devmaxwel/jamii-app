@@ -23,9 +23,10 @@ const Navigation = () => {
                     </div>
  
                     <div className={classes.socials}>
-                         <Link><i class="fab fa-facebook"></i></Link>
-                         <Link><i class="fab fa-instagram"></i></Link>
-                         <Link><i class="fab fa-twitter"></i></Link>
+
+                          <Link to={{pathname: "https://www.instagram.com/jamiicom/?hl=en"}} target='_blank'><i class="fab fa-instagram"></i></Link>
+                         <Link to={{pathname:"https://www.twitter.com/jamiicom_"}} target='_blank'><i class="fab fa-twitter"></i></Link>
+                         <Link to={{pathname:"https://www.facebook.com/KevinMoishylez"}} target="_blank"><i class="fab fa-facebook"></i></Link>
  
                     </div>
  
@@ -43,11 +44,11 @@ const Navigation = () => {
                    <ul>
                          <li><Link to='/'>Home</Link></li>
                          <li><Link to='/services'>Services</Link></li>
-                         <li><Link>Gallery</Link></li>
-                         <li><Link>Membership Packages</Link></li>
-                         <li><Link>Payment</Link></li>
-                         <li><Link>Register</Link></li>
-                         <li><Link>Contact Us</Link></li>
+                         <li><Link to='/gallery'>Gallery</Link></li>
+                         <li><Link to='/packages'>Membership Packages</Link></li>
+                         <li><Link to='payment'>Payment</Link></li>
+                         <li><Link to='/register'>Register</Link></li>
+                         <li><Link to='/contact'>Contact Us</Link></li>
                         
  
                    </ul>
